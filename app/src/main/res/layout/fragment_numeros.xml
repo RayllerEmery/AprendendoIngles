@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/segundo_fundo"
+    tools:context=".Fragment.NumerosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageButton
+        android:id="@+id/btnOne"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/um"
+        app:layout_constraintBottom_toTopOf="@+id/btnThr"
+        app:layout_constraintEnd_toStartOf="@+id/btnTwo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnTwo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dois"
+        app:layout_constraintBottom_toTopOf="@+id/btnFour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnOne"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnThr"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tres"
+        app:layout_constraintBottom_toTopOf="@+id/btnFive"
+        app:layout_constraintEnd_toStartOf="@+id/btnFour"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOne" />
+
+    <ImageButton
+        android:id="@+id/btnFour"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/quatro"
+        app:layout_constraintBottom_toTopOf="@+id/btnSix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnThr"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwo" />
+
+    <ImageButton
+        android:id="@+id/btnFive"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cinco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSix"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThr" />
+
+    <ImageButton
+        android:id="@+id/btnSix"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@color/color_bichos"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFive"
+        app:layout_constraintTop_toBottomOf="@+id/btnFour" />
+</android.support.constraint.ConstraintLayout>
